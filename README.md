@@ -6,16 +6,16 @@
 This is QRCode-URL, a PHP based QRCode generator based on PHP-QRCode by Dominik Dzienia.
 
 
-- Requirements
+## Requirements
   * PHP 5.3
   * PHP GD (for image generation);
 
-- Installation
+## Installation
   * Unzip the downloaded .zip file
   * Upload folder to your site (eg: http://example.com/qrcode)
 
 
-- Usage
+## Usage
 Create a QR-Code using this format : http://example.com/qrcode/?q=<DataText>&s=<size>&l=<level>&b=<border-size>
 
 Where the parameters are:
@@ -25,7 +25,7 @@ Where the parameters are:
   * b (optionnal): An integer between 1 and 20. Defines the white border width of the QRCode (may be given, but should be left empty). Default: 4.
 
 
-- Acknowledgments
+## Acknowledgments
 
 QRCode-URL is based on PHP-QRCode by Dominik Dzienia, a free PHP QRCode lib.
 http://sourceforge.net/projects/phpqrcode/
