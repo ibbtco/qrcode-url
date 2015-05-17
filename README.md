@@ -16,7 +16,7 @@ This is QRCode-URL, a PHP based QRCode generator based on PHP-QRCode by Dominik 
 
 
 ## Usage
-Create a QR-Code using this format : http://example.com/qrcode/?q=<DataText>&s=<size>&l=<level>&b=<border-size>
+Create a QR-Code using this format : http://example.com/qrcode/?q=&lt;DataText&gt;&amp;s=&lt;size&gt;&amp;l=&lt;level&gt;&amp;b=&lt;border-size&gt;
 
 Where the parameters are:
   * q (required) : Your text. The data you want to put in the QRCode. Keep out of url-encoding !
